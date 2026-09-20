@@ -1860,25 +1860,6 @@ public class HowManyHeads : MLQuest
 }
 */
 
-/* TODO: Uncomment when Dreadhorn is added
-public class DreadhornQuest : MLQuest
-{
-  public DreadhornQuest()
-  {
-    Activated = true;
-    Title = 1074645; // Dreadhorn
-    Description = 1074646; // Can you comprehend it? I cannot, I confess.  The most pristine and perfect Lord of Sosaria has fallen prey to the blight.  From the depths of my heart I mourn his corruption; my thoughts are filled with pity for this glorious creature now tainted.  And my blood boils with fury at those responsible for the innocent creature's undoing.  Will you find Dread Horn, as he is now called, and free him from this misery?
-    RefusalMessage = 1074647; // How can you not feel as I do?
-    InProgressMessage = 1074648; // The lush and fertile land where Dread Horn now lives is twisted and tainted, a result of his corruption.  The fey folk have sealed the land off through their magics, but you can enter through an enchanted mushroom fairy circle.
-    CompletionMessage = 1074649; // Thank you.  I haven't the words to express my gratitude.
-
-    Objectives.Add( new KillObjective( 1, new Type[] { typeof( DreadHorn ) }, "dread horn" ) );
-
-    Rewards.Add( ItemReward.RewardStrongbox );
-  }
-}
-*/
-
 /* TODO: Uncomment when SerpentsFangHighExecutioner, TigersClawThief and DragonsFlameGrandMage are added
 public class NewLeadership : MLQuest
 {
